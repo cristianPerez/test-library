@@ -5,7 +5,7 @@
       "stage-0"
     ],
     "plugins": [
-      /* "transform-runtime", */
+      "transform-runtime",
       "transform-async-to-generator",
       "transform-async-generator-functions",
       "transform-class-properties",
