@@ -1,0 +1,17 @@
+{
+    "presets": [
+      "latest",
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      /* "transform-runtime", */
+      "transform-async-to-generator",
+      "transform-async-generator-functions",
+      "transform-class-properties",
+      "transform-do-expressions",
+      "transform-export-extensions",
+      "transform-object-rest-spread" 
+    ]
+  }
+  
