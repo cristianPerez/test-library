@@ -10,10 +10,9 @@ module.exports = {
     output: {
         path: join(__dirname, 'dist'),
         libraryTarget: 'umd',
-        library: 'RetailPointSDK'
+        library: 'RetailPointSDK'    
     },
     devtool: 'source-map',
-    externals: [ nodeExternals() ],
     module: {
         loaders: [
             {
